@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body
+{
+    background-color: black;
+    overflow: hidden;
+    background-image: url("../assets/4.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Roboto', sans-serif;  
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.nav{
+    background-color: white;
+    width: 100vw;
+    height: 70px;
+    
+}
+
+h1{
+    font-size: 27px;
+}
+
+#d{
+    color: rgb(219, 6, 6);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding-top: 18px;
+}
+
+ul li{
+    display: inline-block;
+padding-left:55px;
+    padding-top: 6px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+ul li a:hover{
+    color: rgb(219, 6, 6);
+    font-weight: 600;
+    font-size: 20px;
+}
+.cart{
+    width: 25px;
+    height: 25px;
+}
+
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px;
+}
+
+
+#c{
+font-size: 40px;
+    color:F90505 ;
+margin-left: 225px;
+margin-top: 150px;
+font-weight: 800;
+}
+
+
+button
+{
+    width: 140px;
+    height: 60px;
+    background-color:F90505 ;
+    border-radius: 30px;
+    margin-top: 120px;
+    margin-left: 225px;
+
+}
+
+p
+{
+    color: white;
+    opacity: 0.4;
+    margin-top: 120px;
+    margin-left: 225px;
+    font-size: larger;
+  
+}
+.container2
+{
+    display: flex;
+    height: 70px;
+    width: 100%;
+background-color: white;}
+
+.nav{
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+
